@@ -1,0 +1,6 @@
+framework module Pods_HCInteraction {
+  umbrella header "Pods-HCInteraction-umbrella.h"
+
+  export *
+  module * { export * }
+}

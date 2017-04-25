@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07074AEC3EA3B02CD46C99B7 /* Pods_HCInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8BA17ED2196EC7E4051BAF /* Pods_HCInteraction.framework */; };
 		4A7EF33D1EAEFF47001D010F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EF33C1EAEFF47001D010F /* AppDelegate.swift */; };
 		4A7EF33F1EAEFF47001D010F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EF33E1EAEFF47001D010F /* ViewController.swift */; };
 		4A7EF3421EAEFF47001D010F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EF3401EAEFF47001D010F /* Main.storyboard */; };
 		4A7EF3441EAEFF47001D010F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EF3431EAEFF47001D010F /* Assets.xcassets */; };
 		4A7EF3471EAEFF47001D010F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EF3451EAEFF47001D010F /* LaunchScreen.storyboard */; };
+		4A7EF3581EAF01F2001D010F /* CDKeyboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EF3571EAF01F2001D010F /* CDKeyboardMonitor.swift */; };
+		4A7EF35C1EAF067E001D010F /* CDLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EF35B1EAF067E001D010F /* CDLoginController.swift */; };
+		4A7EF3601EAF07A1001D010F /* CDGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EF35F1EAF07A1001D010F /* CDGradientView.swift */; };
+		4A7EF3621EAF2087001D010F /* CDRadiusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EF3611EAF2087001D010F /* CDRadiusTextField.swift */; };
+		4A7EF3641EAF2335001D010F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EF3631EAF2335001D010F /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F8BA17ED2196EC7E4051BAF /* Pods_HCInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7EF3391EAEFF47001D010F /* HCInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7EF33C1EAEFF47001D010F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A7EF33E1EAEFF47001D010F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,13 @@
 		4A7EF3431EAEFF47001D010F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7EF3461EAEFF47001D010F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7EF3481EAEFF47001D010F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7EF3571EAF01F2001D010F /* CDKeyboardMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDKeyboardMonitor.swift; sourceTree = "<group>"; };
+		4A7EF35B1EAF067E001D010F /* CDLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDLoginController.swift; sourceTree = "<group>"; };
+		4A7EF35F1EAF07A1001D010F /* CDGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDGradientView.swift; sourceTree = "<group>"; };
+		4A7EF3611EAF2087001D010F /* CDRadiusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDRadiusTextField.swift; sourceTree = "<group>"; };
+		4A7EF3631EAF2335001D010F /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		818AB301DF8918D395B89DD2 /* Pods-HCInteraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCInteraction.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCInteraction/Pods-HCInteraction.release.xcconfig"; sourceTree = "<group>"; };
+		CE34E39F38675FED570CFF12 /* Pods-HCInteraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCInteraction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCInteraction/Pods-HCInteraction.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07074AEC3EA3B02CD46C99B7 /* Pods_HCInteraction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				4A7EF33B1EAEFF47001D010F /* HCInteraction */,
 				4A7EF33A1EAEFF47001D010F /* Products */,
+				59AEE6D847987CF32810385C /* Pods */,
+				97F8F503CAE93693C4AA1D5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,92 @@
 		4A7EF33B1EAEFF47001D010F /* HCInteraction */ = {
 			isa = PBXGroup;
 			children = (
+				4A7EF34E1EAEFF8E001D010F /* Module */,
+				4A7EF3531EAF01B2001D010F /* Vender */,
 				4A7EF33C1EAEFF47001D010F /* AppDelegate.swift */,
 				4A7EF33E1EAEFF47001D010F /* ViewController.swift */,
 				4A7EF3401EAEFF47001D010F /* Main.storyboard */,
+				4A7EF3631EAF2335001D010F /* image.png */,
 				4A7EF3431EAEFF47001D010F /* Assets.xcassets */,
 				4A7EF3451EAEFF47001D010F /* LaunchScreen.storyboard */,
 				4A7EF3481EAEFF47001D010F /* Info.plist */,
 			);
 			path = HCInteraction;
+			sourceTree = "<group>";
+		};
+		4A7EF34E1EAEFF8E001D010F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EF34F1EAEFF8E001D010F /* Login */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		4A7EF34F1EAEFF8E001D010F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EF3501EAEFF8E001D010F /* Controller */,
+				4A7EF3511EAEFF8E001D010F /* Model */,
+				4A7EF3521EAEFF8E001D010F /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4A7EF3501EAEFF8E001D010F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EF35B1EAF067E001D010F /* CDLoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A7EF3511EAEFF8E001D010F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A7EF3521EAEFF8E001D010F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EF35F1EAF07A1001D010F /* CDGradientView.swift */,
+				4A7EF3611EAF2087001D010F /* CDRadiusTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A7EF3531EAF01B2001D010F /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EF3561EAF01F2001D010F /* KMonitor */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		4A7EF3561EAF01F2001D010F /* KMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EF3571EAF01F2001D010F /* CDKeyboardMonitor.swift */,
+			);
+			path = KMonitor;
+			sourceTree = "<group>";
+		};
+		59AEE6D847987CF32810385C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE34E39F38675FED570CFF12 /* Pods-HCInteraction.debug.xcconfig */,
+				818AB301DF8918D395B89DD2 /* Pods-HCInteraction.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97F8F503CAE93693C4AA1D5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F8BA17ED2196EC7E4051BAF /* Pods_HCInteraction.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A7EF34B1EAEFF47001D010F /* Build configuration list for PBXNativeTarget "HCInteraction" */;
 			buildPhases = (
+				B0A27D4012AC1B40B7624D92 /* [CP] Check Pods Manifest.lock */,
 				4A7EF3351EAEFF47001D010F /* Sources */,
 				4A7EF3361EAEFF47001D010F /* Frameworks */,
 				4A7EF3371EAEFF47001D010F /* Resources */,
+				2C9970B0022AC567372E4B1F /* [CP] Embed Pods Frameworks */,
+				2CA910F550E90A19338219D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +194,7 @@
 				TargetAttributes = {
 					4A7EF3381EAEFF47001D010F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4GM649GA4F;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A7EF3471EAEFF47001D010F /* LaunchScreen.storyboard in Resources */,
+				4A7EF3641EAF2335001D010F /* image.png in Resources */,
 				4A7EF3441EAEFF47001D010F /* Assets.xcassets in Resources */,
 				4A7EF3421EAEFF47001D010F /* Main.storyboard in Resources */,
 			);
@@ -131,13 +231,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C9970B0022AC567372E4B1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCInteraction/Pods-HCInteraction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA910F550E90A19338219D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCInteraction/Pods-HCInteraction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A27D4012AC1B40B7624D92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A7EF3351EAEFF47001D010F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7EF3601EAF07A1001D010F /* CDGradientView.swift in Sources */,
 				4A7EF33F1EAEFF47001D010F /* ViewController.swift in Sources */,
+				4A7EF3621EAF2087001D010F /* CDRadiusTextField.swift in Sources */,
 				4A7EF33D1EAEFF47001D010F /* AppDelegate.swift in Sources */,
+				4A7EF35C1EAF067E001D010F /* CDLoginController.swift in Sources */,
+				4A7EF3581EAF01F2001D010F /* CDKeyboardMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +410,10 @@
 		};
 		4A7EF34C1EAEFF47001D010F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE34E39F38675FED570CFF12 /* Pods-HCInteraction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GM649GA4F;
 				INFOPLIST_FILE = HCInteraction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mangonob.HCInteraction;
@@ -270,8 +424,10 @@
 		};
 		4A7EF34D1EAEFF47001D010F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818AB301DF8918D395B89DD2 /* Pods-HCInteraction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4GM649GA4F;
 				INFOPLIST_FILE = HCInteraction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mangonob.HCInteraction;
@@ -299,6 +455,7 @@
 				4A7EF34D1EAEFF47001D010F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
